@@ -32,7 +32,7 @@ RStorm <- function(topology,
 		# Run each of the bolts
 		for(j in c(1:length(bolts))){
 			tmp.data <- .GetEmit(paste("emit.",bolts[[j]]$listen,sep=""))
-	        alply(tmp.data, 1, bolts[[j]]$func, .name=paste("emit.",j,sep=""), boltID=bolts[[j]]$id, ...)
+	        plyr::alply(tmp.data, 1, bolts[[j]]$func, .name=paste("emit.",j,sep=""), boltID=bolts[[j]]$id, ...)
 		}
 		
 		# Clean the emitted batches:

@@ -1,9 +1,9 @@
-b1dc8d0f440f13256874d69fe6b4feaf *DESCRIPTION
-012592abf4b40a8d741b299df2ded05a *NAMESPACE
+63cae034b91a74861ba76f4aa6a8a6e9 *DESCRIPTION
+8b8bb0a49f4fb0b76d5617ca81e5f6a5 *NAMESPACE
 a4e1d981b7ddcc5ca624a44022ad913a *R/bolt.R
 c3654d8b150b43e1973ee0cd6dd2b0ec *R/hashmap.R
-7bd0857d97a9f8a49d08867c02a6f043 *R/rstorm.R
-0ae99c9bc24a673108b61d4dc5c01108 *R/topology.R
+7b481c8571a80bd3f9d30d387ddb7b96 *R/rstorm.R
+6965eb814afb74d713e67dbbca73df48 *R/topology.R
 388f519eea9d8a269180f4032253873c *R/tracking.R
 addf31af4221da4d4d010ada926c88c5 *R/tuple.R
 287f45ebd046f52ee1a94e4a4b742d75 *data/sentences.RData

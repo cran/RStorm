@@ -1,1 +1,6 @@
 exportPattern("^[^\\.]")
+S3method(plot, Topology)
+S3method(print, Topology)
+S3method(plot, RStorm)
+S3method(print, RStorm)
+import(plyr)
